@@ -1,17 +1,16 @@
  
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 h1 {
     color: aqua;
-    font-size: xx-large;
+    font-size: 40px;
     text-align-last: center;
-}
-image{
-    align-self: center;
 }
 h2{ 
     color: aqua;
+    font-size: xx-large;
 } 
 h3 {
     color: aliceblue;
@@ -25,3 +24,12 @@ a{
 *{
     background-color: black;
 } 
+div{
+   display: inline-block;
+   width: 200px;
+   padding: 2%;
+    border: aquamarine 10px;
+    background-color: rgb(49, 49, 63);
+    text-align: center;
+    box-shadow: inset;
+}
