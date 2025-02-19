@@ -1,0 +1,27 @@
+ 
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: aqua;
+    font-size: xx-large;
+    text-align-last: center;
+}
+image{
+    align-self: center;
+}
+h2{ 
+    color: aqua;
+} 
+h3 {
+    color: aliceblue;
+}
+body{   
+    color: azure;
+}
+a{
+    color: aquamarine;
+}
+*{
+    background-color: black;
+} 
