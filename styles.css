@@ -1,6 +1,6 @@
  
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
@@ -15,19 +15,27 @@ h5{
     font-size: 20px;
     color: black;
 }
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align-last: center;
+}
 h2{ 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(217, 200, 243);
-    font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(255, 255, 255);
+font-size: 50px;
+text-align-last: center; 
+  
 } 
 h3 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: xx-large;
 }
 body{   
     color: azure;
     font-size: x-large;
-    background-color: rgb(39, 49, 103);
+    background-color: rgb(20, 22, 36);
 }
 a{
     color: rgb(217, 200, 243);
@@ -36,13 +44,14 @@ a{
 .box{
    align-self: center;
     display: inline-block;
-   width: 400px;
-   height: 300px;
+   width: 200px;
+   height: 200px;
    padding: 5%;
-   margin: 2%;
+   margin: 50px;
     border: 10PX solid rgb(187, 149, 244);
     text-align: center;
     box-shadow: inset; 
+    justify-content: center;
 }
 .container{
     width: 100%;
@@ -51,6 +60,7 @@ a{
     padding-right: 25%;
     background-color: rgb(39, 49, 103);
     padding: 10px;
+    justify-content: center;
 } 
 .header{
     
@@ -63,3 +73,30 @@ a{
     z-index: 0;
     overflow: hidden;
 } 
+.about{
+   display: flex;
+   justify-content: center;
+    width: 100%;
+    height: 700px;
+    align-items: center center;
+}
+.abouttext{
+   align-self: center;
+   width: 20%;
+   kerning: 120%;
+    width: auto;
+    text-align: center;
+    align-content: center;
+}
+.aboutimage{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 40%;
+    height: 100%;
+    background-image: url("images/WhispersLogo.png");
+    background-size: contain; 
+    opacity: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
